@@ -90,13 +90,8 @@ export default function Index() {
               </p>
               
               <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
-                <Link to="/quiz">
-                  <Button size="lg" className="w-full sm:w-auto px-8 py-6 text-lg bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-                    ابدأ اختبار الوجهة المناسبة
-                  </Button>
-                </Link>
                 <Link to="/consultation">
-                  <Button variant="outline" size="lg" className="w-full sm:w-auto px-8 py-6 text-lg">
+                  <Button size="lg" className="w-full sm:w-auto px-8 py-6 text-lg bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
                     احجز استشارة مجانية
                   </Button>
                 </Link>

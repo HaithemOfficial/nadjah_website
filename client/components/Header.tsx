@@ -76,10 +76,6 @@ export default function Header() {
             <Flame className="h-4 w-4 -mt-0.5" />
             <span className="relative">عرض</span>
           </Link>
-          <Link to="/quiz" className="text-sm font-medium text-gray-600 hover:text-gray-900 transition flex items-center gap-2">
-            <HelpCircle className="h-4 w-4 -mt-0.5" />
-            <span>أداة اختيار الوجهة</span>
-          </Link>
           <Link to="/about-us" className="text-sm font-medium text-gray-600 hover:text-gray-900 transition flex items-center gap-2">
             <Info className="h-4 w-4 -mt-0.5" />
             <span>نبذة عننا</span>
@@ -142,14 +138,7 @@ export default function Header() {
                   <span>عرض</span>
                 </Link>
                 
-                <Link 
-                  to="/quiz" 
-                  className="text-base font-medium text-gray-600 hover:text-gray-900 transition py-2 px-4 rounded hover:bg-gray-100 flex items-center gap-3"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  <HelpCircle className="h-5 w-5 -mt-0.5" />
-                  <span>أداة اختيار الوجهة</span>
-                </Link>
+                {/* Quiz removed */}
                 
                 <Link 
                   to="/about-us" 
